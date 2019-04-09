@@ -1057,3 +1057,5 @@ if randomly_chosen == user_2:
     #azul a las felicitaciones del primer jugador
     #blancas las felicitaciones del segundo
     
+
+    #esta es una prueba de actualizacion
