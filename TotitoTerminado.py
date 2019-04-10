@@ -1318,9 +1318,9 @@ def segunda_fase():
                                 print("")
 
                                 #remove input from this user from autolist
-                                print("automated bot list : ", automated_bot_list)
+                                
                                 automated_bot_list.remove(convert)
-                                print("automated bot list : ", automated_bot_list)
+                                
 
                                 #inserting input to the board
                                 print(Fore.YELLOW + "")
@@ -2898,13 +2898,13 @@ def misere_ttt():
     if user_1_points > user_2_points:
         print("")
         print(Fore.RED + "RESULTS:")
-        print(user_1 + " " + Fore.RED + "YOU LOST THE GAME " + user_2 + " WON")
+        print(user_1 + " " + Fore.RED + " YOU LOST THE GAME " + user_2 + " WON")
         print(Fore.WHITE + "")
 
     if user_2_points > user_1_points:
         print("")
         print(Fore.RED + "RESULTS:")
-        print(user_2 + " " + Fore.RED + "YOU LOST THE GAME" + user_1 + "WON")
+        print(user_2 + " " + Fore.RED + " YOU LOST THE GAME " + user_1 + " WON")
         print(Fore.WHITE + "")
 
     if user_1_points == user_2_points:
@@ -2950,4 +2950,4 @@ if user_choice == 'yes':
         misere_ttt()
 
 
-print(Fore.YELLOW + "David Gabriel Corzo Mcmath -" + Fore.RED + "Coding Course UFM -" + Fore.CYAN + "20190432 -" + Fore.GREEN + "2019")
+print(Fore.YELLOW + " Made by: David Gabriel Corzo Mcmath -" + Fore.RED + " Coding Course UFM -" + Fore.CYAN + " 20190432 -" + Fore.GREEN + " Finished on 09-APRIL-2019")
